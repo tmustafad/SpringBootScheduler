@@ -16,6 +16,7 @@ import com.turkmen.scheduler.domain.Person;
 
 public interface PersonRepository extends CrudRepository<Person, Long> {
 	
+	//test
  List<Person> findByLastName(String surname);
 	
 }
